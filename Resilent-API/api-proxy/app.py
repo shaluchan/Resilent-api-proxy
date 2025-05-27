@@ -12,12 +12,12 @@ APIS = [
     {
         "name": "OpenWeatherMap",
         "url": "https://api.openweathermap.org/data/2.5/weather",
-        "key": "3f9950f17f2e8ba67391b5d212d7c2c9"
+        "key": "API_KEY1"
     },
     {
         "name": "WeatherAPI",
         "url": "http://api.weatherapi.com/v1/current.json",
-        "key": "248676ee8f5a4a1b9b385601252705"
+        "key": "API_KEY2"
     }
 ]
 
