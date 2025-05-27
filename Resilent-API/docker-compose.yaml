@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  redis:
+    image: redis:latest
+  api-proxy:
+    build: ./api-proxy
+    ports:
+      - "5000:5000"
+    depends_on:
+      - redis
+  heartbeat:
+    build: ./heartbeat
+    depends_on:
+      - api-proxy
+      - redis
