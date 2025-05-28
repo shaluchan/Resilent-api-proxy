@@ -40,7 +40,7 @@
 
 ```bash
 git clone https://github.com/your-username/resilient-api-proxy.git
-cd resilient-api-proxy
+cd Resilent-API
 ```
 ### 2. Add ur API keys
 Edit api-proxy/app.py and replace the placeholders in APIS with your actual API keys.
